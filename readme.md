@@ -1,52 +1,64 @@
 # Day 43 Task | Cohort 2.0
 
-This file contains the **JavaScript Counter Project** I completed as part of **Day 42**.  
-It focuses on **DOM manipulation**, **event handling**, **dynamic styling**, and creating an **interactive counter UI** using JavaScript.
+This file contains the **IPL Winner Generator Project** I completed as part of **Day 43**.  
+It focuses on **DOM manipulation**, **event handling**, **dynamic UI styling**, and creating a fully interactive **IPL Winner Prediction Card** using JavaScript.
 
-📌 **About the Day 42 Task**  
-Day 42 was centered around practicing **DOM selection**, **event listeners**, **UI updates**, and building a functional counter with clean animations and styling.
+## 📌 About the Day 43 Task  
 
-✨ **Task Description**
+Day 43 was centered around practicing deeper DOM concepts such as:
+
+- Updating multiple elements dynamically  
+- Changing UI colors based on data  
+- Handling user interactions  
+- Working with arrays of objects  
+- Using images, gradients, and dynamic styling  
+
+This task helped strengthen both **JS logic** and **frontend UI design**.
+
+## 🎥 Demo Preview
+
+Add your image or GIF here:
+
+```md
+![Demo](./assets/demo.gif)
+````
+## ✨ Task Description  
 
 | Feature | Description |
 |--------|-------------|
-| 🧩 DOM Selection | Selected elements like `h1`, `+`, `-`, and `reset` using `querySelector` and `getElementById()`. |
-| ➕ Increase Counter | Clicking the **+** button increments the counter value. |
-| ➖ Decrease Counter | Clicking the **–** button decreases the counter value. |
-| 🔄 Reset Counter | The **reset** button sets the counter back to **0**. |
-| 🎨 Temporary Color Change | Buttons change color briefly using `style.backgroundColor` with `setTimeout()`. |
-| 🖱️ Hover Animation | Added smooth hover scaling to enhance user experience. |
-| 🎯 Centered Layout | Used Flexbox to perfectly center the entire counter component. |
-| 💎 UI Styling | Added shadows, rounded corners, and clean card-style design. |
+| 🧩 **Dynamic Team Generator** | Randomly selects an IPL team from an array of 10 teams. |
+| 🖼️ **Team Logo Rendering** | The team logo appears inside a stylish glass-card container. |
+| 🎨 **Dynamic Colors** | Primary & secondary team colors update the UI every time you click. |
+| 🖱️ **Interactive Button** | Button background & text color adapt to the team colors. |
+| 🏆 **Winner Title Update** | Heading updates to show the generated winner team name. |
+| 💎 **Premium Glassmorphism UI** | Includes blur, rounded corners, shadows, and animations. |
+| ⚡ **Smooth Animations** | Card fade-in, button hover animation, and subtle color transitions. |
 
-## 🎥 Demo  
-Here is a preview of how the counter works:  
+## 🛠️ Technologies Used
 
-![Demo](demo.gif)
-
-🛠️ **Technologies Used**  
-- **HTML** – Structure  
-- **CSS** – Styling and layout  
-- **JavaScript (ES6+)** – DOM and event logic  
-- **VS Code / Browser** – Testing and debugging  
+* **HTML** – Base structure
+* **CSS** – Styling, layout, glass effect, animations
+* **JavaScript (ES6+)** – DOM logic & dynamic styling
+* **VS Code / Browser** – Development & testing
 
 
-## 📖 Learning Outcome  
+## 📖 Learning Outcome
+
 Through this task, I learned how to:
 
-- Manipulate the DOM using JavaScript  
-- Use **event listeners** to trigger UI updates  
-- Update text dynamically using `.innerHTML`  
-- Apply temporary color changes using **`setTimeout()`**  
-- Use **Flexbox** for perfect layout centering  
-- Add hover animations and shadows for modern UI  
-- Build a fully interactive component with clean structure  
+* Work with arrays of objects (team data + colors + images)
+* Manipulate the DOM by changing styles, images, and text instantly
+* Handle click events and dynamic color changes
+* Apply **glassmorphism**, shadows, and responsive UI design
+* Use random number generation for interactive elements
+* Build a smooth premium UI with **animations + transitions**
 
-This project strengthened my understanding of **events**, **DOM manipulation**, and **JavaScript-based UI design**.
+This project improved my confidence in creating **interactive JavaScript-based UI components**.
 
 
-## 🌟 Acknowledgement  
-This task helped me improve my understanding of **JavaScript events, DOM structure, styling, and interactive UI development**.  
-I am grateful for the consistent guidance and motivation that helps me grow every day.
+## 🌟 Acknowledgement
+
+This task helped me grow in **frontend development**, especially in understanding dynamic styling and interactive UI logic.
+Thanks for the guidance and consistent motivation that helps me push further every day.
 
 ---
