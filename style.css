@@ -34,6 +34,7 @@ body {
   backdrop-filter: blur(4px);
   padding: 10px 20px;
   border-radius: 12px;
+  transition: color 0.4s ease;
 }
 
 #box {
@@ -43,12 +44,14 @@ body {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(20px);
-  background-image: url("./image.png");
+  background-image: url("./assets/logo.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 30px;                
+  background-origin: content-box; 
   border: 1.5px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35); 
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
   animation: fadeIn 0.8s ease;
 }
 
@@ -57,21 +60,23 @@ body {
 }
 
 #btn {
-  padding: 14px 40px;
+  padding: 14px 50px;
   font-size: 20px;
-  border-radius: 12px;
-  border: none;
-  background: white;
   font-weight: 700;
+  border: none;
+  border-radius: 50px;
   cursor: pointer;
-  transition: 0.3s;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  background-color: #f2f2f2;
+  color: #222;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: 0.25s ease;
 }
 
 #btn:hover {
-  transform: scale(1.07);
-  box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+  transform: translateY(-4px);
+  box-shadow: 0 14px 35px rgba(0,0,0,0.35);
 }
+
 
 @keyframes fadeIn {
   from {

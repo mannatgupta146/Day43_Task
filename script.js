@@ -12,8 +12,8 @@ let arr = [
 ];
 
 
-
 let main = document.querySelector('#main')
+let h1= document.querySelector('h1')
 let btn = document.querySelector('button')
 
 btn.addEventListener('click', function(){
@@ -22,5 +22,7 @@ btn.addEventListener('click', function(){
     box.style.backgroundColor = arr[num].primary;
     main.style.backgroundImage = "none";  
     main.style.backgroundColor = arr[num].secondary;
-
+    btn.style.backgroundColor = arr[num].primary;
+    btn.style.color = " #f2f2f2"
+    h1.style.color = arr[num].primary;
 })
