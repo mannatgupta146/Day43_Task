@@ -19,9 +19,8 @@ This task helped strengthen both **JS logic** and **frontend UI design**.
 
 Add your image or GIF here:
 
-```md
 ![Demo](./assets/demo.gif)
-````
+
 ## ✨ Task Description  
 
 | Feature | Description |
