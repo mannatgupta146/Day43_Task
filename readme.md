@@ -1,7 +1,7 @@
 # Day 43 Task | Cohort 2.0
+This project is my **Day 43 Task**, where I built an **IPL Winner Guess Generator** using **HTML, CSS, and JavaScript**.
 
-This file contains the **IPL Winner Generator Project** I completed as part of **Day 43**.  
-It focuses on **DOM manipulation**, **event handling**, **dynamic UI styling**, and creating a fully interactive **IPL Winner Prediction Card** using JavaScript.
+It features **random team selection**, **dynamic UI colors**, **logo updates**, and a **smooth premium card design**, all powered by simple **DOM manipulation** and **event handling**.
 
 ## 📌 About the Day 43 Task  
 
@@ -17,7 +17,7 @@ This task helped strengthen both **JS logic** and **frontend UI design**.
 
 ## 🎥 Demo Preview
 
-Add your image or GIF here:
+> 🔗 *See how it looks when it runs:*  
 
 ![Demo](./assets/demo.gif)
 
@@ -61,3 +61,4 @@ This task helped me grow in **frontend development**, especially in understandin
 Thanks for the guidance and consistent motivation that helps me push further every day.
 
 ---
+
